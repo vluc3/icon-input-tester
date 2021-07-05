@@ -6,21 +6,45 @@ h1 {
 
 .container {
   margin: 0 auto;
-  max-width: 300px;
+  max-width: 800px;
   padding-top: 65px;
 }
 
 .form-row {
-  width: 500px;
+  width: 800px;
   margin-bottom: 10px;
 }
 
 label {
-  width: 150px;
+  width: 250px;
   text-align: right;
   padding-right: 5px;
 }
 
+.email font-awesome-input {
+  height: 40px;
+  background-color: cornsilk;
+  border-color: darkgoldenrod;
+  border-radius: 3px;
+}
+
+.email font-awesome-input input {
+  width: 300px;
+}
+
+.email font-awesome-input.input-focused {
+  box-shadow: 0 0 5px darkgoldenrod;
+  -webkit-box-shadow: 0 0 5px darkgoldenrod;
+}
+
+.email font-awesome-input input:-webkit-autofill,
+.email font-awesome-input input:-webkit-autofill:hover,
+.email font-awesome-input input:-webkit-autofill:focus,
+.email font-awesome-input input:-webkit-autofill:active {
+  box-shadow: 0 0 0 40px cornsilk inset !important;
+  -webkit-box-shadow: 0 0 0 40px cornsilk inset !important;
+}
+
 .stripe font-awesome-input {
-  border: 1px solid cadetblue;
+  border: 1px solid lightseagreen;
 }

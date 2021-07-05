@@ -1,20 +1,19 @@
-import { Component, OnInit } from '@angular/core';
+import { Component } from '@angular/core';
 
 import { IconDefinition } from '@fortawesome/fontawesome-svg-core';
-import { faEnvelope, faLock, faGlobe, faShoppingBag } from '@fortawesome/free-solid-svg-icons';
+import { faUser, faEnvelope, faLock, faGlobe, faShoppingBag, faSkiingNordic } from '@fortawesome/free-solid-svg-icons';
 
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.scss']
 })
-export class AppComponent implements OnInit {
+export class AppComponent {
 
+  userIcon: IconDefinition = faUser;
   envelopeIcon: IconDefinition = faEnvelope;
   lockIcon: IconDefinition = faLock;
   globeIcon: IconDefinition = faGlobe;
   shoppingBagIcon: IconDefinition = faShoppingBag;
-
-  ngOnInit() {
-  }
+  skiingNordicIcon: IconDefinition = faSkiingNordic;
 }

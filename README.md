@@ -14,7 +14,6 @@ npm i -s @fortawesome/fontawesome-svg-core
 npm i -s @fortawesome/free-solid-svg-icons
 
 npm i -s icon-input@latest
-
 ```
 
 ## Build

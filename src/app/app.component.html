@@ -30,11 +30,22 @@
       <br>
 
       <div class="form-row">
-        <label>Email</label>
+        <label>Name (Default theme)</label>
+        <font-awesome-input
+          [icon]="userIcon">
+          <input
+            type="text"
+            placeholder="Name"
+            autocomplete="off"
+          />
+        </font-awesome-input>
+      </div>
+
+      <div class="form-row email">
+        <label>Email (Custom theme)</label>
         <font-awesome-input
           [icon]="envelopeIcon">
           <input
-            id="email"
             type="email"
             placeholder="Email"
             autocomplete="off"
@@ -43,11 +54,10 @@
       </div>
 
       <div class="form-row font-awesome-input-blue-theme">
-        <label>Password</label>
+        <label>Password (Blue theme)</label>
         <font-awesome-input
           [icon]="lockIcon">
           <input
-            id="password"
             type="password"
             placeholder="Password"
             autocomplete="off"
@@ -56,7 +66,7 @@
       </div>
 
       <div class="form-row stripe">
-        <label>Stripe</label>
+        <label>Stripe (Custom theme)</label>
         <font-awesome-input
           [icon]="globeIcon"
           [outline]="false">
@@ -68,14 +78,27 @@
         </font-awesome-input>
       </div>
 
-      <div class="form-row">
-        <label>Paypal</label>
+      <div class="form-row font-awesome-input-red-theme">
+        <label>Paypal (Red theme)</label>
         <font-awesome-input
           [icon]="shoppingBagIcon">
           <input
             type="text"
             placeholder="Paypal"
             autocomplete="off"
+          />
+        </font-awesome-input>
+      </div>
+
+      <div class="form-row font-awesome-input-readonly-theme">
+        <label>Sport (Readonly theme)</label>
+        <font-awesome-input
+          [icon]="skiingNordicIcon">
+          <input
+            type="email"
+            placeholder="Sport"
+            autocomplete="off"
+            readonly
           />
         </font-awesome-input>
       </div>
